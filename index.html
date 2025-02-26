@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="list-container">    
+        <div class="lista la">
+            <h2>Lista A</h2>
+            <hr>
+        </div>
+        <div class="arrows-container">
+            <button id="b-left">←</button>
+            <button id="b-right">→</button>
+        </div>
+        <div class="lista lb">
+            <h2>Lista B</h2>
+            <hr>
+        </div>
+    </section><br>
+    <input type="text" placeholder="Escreva o item" id="input">
+    <button onclick="enviar()" id="btn">Enviar</button><br>
+    <div class="radio-container">
+        <div>
+            <input type="radio" name="rLista" id="radio" value="A" checked>A<br>
+        </div>
+        <div>
+            <input type="radio" name="rLista" id="radio" value="B">B
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

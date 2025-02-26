@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.list-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0 0;
+}
+.lista{
+    border: 2px solid black;
+    width: 40vw;
+    min-height: 200px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    background-color: #fff;
+}
+#input{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.2em;
+    background-color: #f9f9f9;
+}
+#btn{
+    padding: 10px;
+    background-color: #99f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 150ms;
+}
+#btn:hover{
+    background-color: #66f;
+    transform: scale(1.1);
+}
+#btn:active{
+    transform: scale(1);
+}
+#radio{
+    margin: 10px;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.item{
+    border: 1px solid grey;
+    margin: 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.item button{
+    padding: 0 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 150ms;
+}
+.item button:hover{
+    background-color: #900;
+}
+.marca{
+    background-color: #99f;
+}
+.arrows-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arrows-container button{
+    padding: 10px;
+    margin: 4px;
+    background-color: #99f;
+    border: none;
+    cursor: pointer;
+    transition: 150ms;
+}
+.arrows-container button:hover{
+    background-color: #66f;
+}
+.radio-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    align-items: center;
+    margin: auto;
+}
