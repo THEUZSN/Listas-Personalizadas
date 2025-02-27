@@ -1,12 +1,13 @@
 # Lista Personalizada
 
-Bem-vindo ao repositório de Listas Personalizadas!
+Bem-vindo ao repositório de Listas Personalizadas! <br/>
+Disponível em: https://theuzsn.github.io/Listas-Personalizadas/
 
 ## 📖Descrição
 
 Este repositório contém listas personalizadas para diversos propósitos. Sinta-se à vontade para explorar e contribuir.
 
-## 🔞Funcionalidades
+## ⚙️Funcionalidades
 * Criação de itens em diferentes listas
 * Exclusão destes itens
 * Troca de itens entre listas
